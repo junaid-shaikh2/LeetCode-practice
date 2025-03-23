@@ -9,7 +9,7 @@ class Solution {
                 if(ans == n){
                     return true;
                 }
-                if(ans < INT_MAX/2)
+                if(ans < __INT_MAX__/2)
                 ans = ans * 2;
             }
             return false;
